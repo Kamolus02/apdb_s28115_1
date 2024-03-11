@@ -5,5 +5,6 @@
         int i = 2;
         Console.WriteLine("Hello, World!");
         Console.WriteLine(i);
+        Console.WriteLine("siema");
     }
 }
