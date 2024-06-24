@@ -8,5 +8,6 @@
         Console.WriteLine("siema");
         Console.WriteLine("asa");
         Console.WriteLine("2");
+        Console.WriteLine("3");
     }
 }
