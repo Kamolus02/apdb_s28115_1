@@ -21,4 +21,20 @@
         
         return avg;
     }
+
+    public static int max(int[] tab)
+    {
+        
+        int max = tab[1];
+
+        foreach (var a in tab)
+        {
+            if (a > max)
+            {
+                max = a;
+            }
+        }
+
+        return max;
+    }
 }
