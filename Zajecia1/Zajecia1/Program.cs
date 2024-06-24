@@ -2,12 +2,23 @@
 {
     public static void Main(string [] args)
     {
-        int i = 2;
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine(i);
-        Console.WriteLine("siema");
-        Console.WriteLine("asa");
-        Console.WriteLine("2");
-        Console.WriteLine("3");
+        int [] tab = [2, 3, 5];
+        double avgas =avg(tab);
+        Console.WriteLine(avgas);
+    }
+
+    public static double avg(int[] tab)
+    {
+        int suma = 0;
+        int counter = 0;
+        foreach (var a in tab)
+        {
+            suma += a;
+            counter++;
+        }
+
+        double avg = suma/counter;
+        
+        return avg;
     }
 }
