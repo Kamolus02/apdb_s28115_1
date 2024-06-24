@@ -9,15 +9,15 @@
 
     public static double avg(int[] tab)
     {
-        int suma = 0;
+        int su = 0;
         int counter = 0;
         foreach (var a in tab)
         {
-            suma += a;
+            su += a;
             counter++;
         }
 
-        double avg = suma/counter;
+        double avg = su/counter;
         
         return avg;
     }
