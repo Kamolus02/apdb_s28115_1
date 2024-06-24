@@ -6,5 +6,6 @@
         Console.WriteLine("Hello, World!");
         Console.WriteLine(i);
         Console.WriteLine("siema");
+        Console.WriteLine("asa");
     }
 }
