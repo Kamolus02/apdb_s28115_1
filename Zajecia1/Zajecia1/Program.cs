@@ -9,16 +9,32 @@
 
     public static double avg(int[] tab)
     {
-        int su = 0;
+        int suma = 0;
         int counter = 0;
         foreach (var a in tab)
         {
-            su += a;
+            suma += a;
             counter++;
         }
 
-        double avg = su/counter;
-        
+        double avg = suma/counter;
+
         return avg;
+    }
+
+    public static int max(int[] tab)
+    {
+        
+        int max = tab[1];
+
+        foreach (var a in tab)
+        {
+            if (a > max)
+            {
+                max = a;
+            }
+        }
+
+        return max;
     }
 }
